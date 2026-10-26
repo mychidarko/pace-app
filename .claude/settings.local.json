@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la /Users/mychidarko/Projects/paceapp/ 2>/dev/null; echo \"---\"; ls -la \"/Users/mychidarko/Downloads/PaceApp_Authentic_Website_Content.docx\" \"/Users/mychidarko/Library/Group Containers/group.com.apple.coreservices.useractivityd/shared-pasteboard/items/130D2D2A-75D4-4A7C-8587-9869108DF2D4/Launch Implementation Plan - Ai company.docx\")",
+      "Bash(mkdir -p docx1 docx2)",
+      "Bash(unzip -o -q \"/Users/mychidarko/Downloads/PaceApp_Authentic_Website_Content.docx\" -d docx1)",
+      "Bash(unzip -o -q \"/Users/mychidarko/Library/Group Containers/group.com.apple.coreservices.useractivityd/shared-pasteboard/items/130D2D2A-75D4-4A7C-8587-9869108DF2D4/Launch Implementation Plan - Ai company.docx\" -d docx2)"
+    ]
+  }
+}
