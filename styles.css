@@ -1,4 +1,4 @@
-/* ============ PaceApp — clean editorial light theme ============ */
+/* ============ Nadovis Consult: clean editorial light theme ============ */
 :root {
   --paper: #faf9f5;    /* warm ivory */
   --paper-2: #f0efe9;  /* warm tan */
@@ -97,7 +97,16 @@ section { padding: 104px 0; position: relative; }
   gap: 24px;
 }
 .brand { display: inline-flex; align-items: center; text-decoration: none; }
-.brand-logo { height: 46px; width: auto; display: block; mix-blend-mode: multiply; }
+.wordmark {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  white-space: nowrap;
+}
+.wordmark span { font-weight: 400; color: var(--text-dim); }
+.wordmark-lg { font-size: 1.7rem; }
 .nav-links { display: flex; gap: 28px; }
 .nav-links a {
   color: var(--text);
@@ -412,7 +421,6 @@ section { padding: 104px 0; position: relative; }
 /* ---------- footer ---------- */
 .footer { border-top: 1px solid var(--line); padding: 64px 0 30px; background: var(--paper); }
 .footer-grid { display: grid; grid-template-columns: 1.2fr 1.8fr; gap: 60px; padding-bottom: 46px; }
-.footer-logo { height: 58px; width: auto; display: block; mix-blend-mode: multiply; }
 .footer-tag {
   margin-top: 16px;
   font-family: var(--font-display);
@@ -489,7 +497,7 @@ html.static .hero { padding-top: 160px; }
   .hero { padding: 150px 0 80px; }
   .nav-links { display: none; }
   .nav-cta .btn { display: none; }
-  .brand-logo { height: 38px; }
+  .wordmark { font-size: 1.3rem; }
   .nav-burger {
     display: flex;
     flex-direction: column;
