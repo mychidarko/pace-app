@@ -1,0 +1,3 @@
+surfaces: ["index.html"]
+rules:
+  preset: leaf-writing
