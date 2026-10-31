@@ -5,38 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nadovis Consult | AI That Moves Organizations Forward</title>
   <meta name="description" content="Practical AI strategy and implementation for organizations ready to work differently." />
+  <meta name="theme-color" content="#0a1430" />
   <link rel="canonical" href="https://nadovis.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Nadovis Consult" />
   <meta property="og:title" content="Nadovis Consult | AI That Moves Organizations Forward" />
   <meta property="og:description" content="Practical AI strategy and implementation for organizations ready to work differently." />
   <meta property="og:url" content="https://nadovis.com/" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23131f4a'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='38' fill='%23fff' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a1430'/%3E%3Ctext x='32' y='46' font-family='Georgia,serif' font-size='40' fill='%23fff' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=Inter:wght@400;450;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
 
-  <!-- ======== NAV ======== -->
   <header class="nav" id="top">
-    <div class="nav-inner">
-      <a class="brand" href="#top" aria-label="Nadovis Consult home">
-        <span class="wordmark">Nadovis <span>Consult</span></span>
-      </a>
+    <div class="wrap nav-inner">
+      <a class="wordmark" href="#top" aria-label="Nadovis Consult home">Nadovis <span>Consult</span></a>
       <nav class="nav-links" aria-label="Primary">
         <a href="#services">What We Do</a>
         <a href="#industries">Industries</a>
         <a href="#approach">Our Approach</a>
         <a href="#responsible">Responsible AI</a>
+        <a href="#about">About</a>
         <a href="#insights">Insights</a>
       </nav>
       <div class="nav-cta">
-        <a class="btn btn-primary" href="#contact">Talk to Nadovis</a>
-        <button class="nav-burger" aria-label="Open menu" aria-expanded="false">
-          <span></span><span></span>
-        </button>
+        <a class="btn btn-signal" href="#contact">Talk to Nadovis</a>
+        <button class="nav-burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
       </div>
     </div>
     <div class="nav-mobile">
@@ -44,129 +42,168 @@
       <a href="#industries">Industries</a>
       <a href="#approach">Our Approach</a>
       <a href="#responsible">Responsible AI</a>
+      <a href="#about">About</a>
       <a href="#insights">Insights</a>
-      <a href="#contact" class="btn btn-primary">Talk to Nadovis</a>
+      <a href="#contact" class="btn btn-signal">Talk to Nadovis</a>
     </div>
   </header>
 
   <main>
-    <!-- ======== HERO ======== -->
     <section class="hero">
-      <div class="container hero-inner">
-        <p class="eyebrow reveal">AI strategy and implementation</p>
-        <h1 class="reveal d1">AI that moves <br />organizations forward.</h1>
-        <p class="hero-sub reveal d2">Nadovis Consult helps organizations see where artificial intelligence can genuinely make a difference, and then helps them put it to work.</p>
-        <p class="hero-sub2 reveal d3">We work with leaders and teams to turn AI from an interesting idea into better processes, decisions, customer experiences and ways of working.</p>
-        <div class="hero-actions reveal d4">
-          <a class="btn btn-primary btn-lg" href="#contact">Talk to Nadovis</a>
-          <a class="btn btn-ghost btn-lg" href="#services">See What We Do</a>
+      <canvas class="field" aria-hidden="true"></canvas>
+      <div class="wrap hero-inner">
+        <h1>
+          <span class="line"><span>AI that moves</span></span>
+          <span class="line"><span>organizations</span></span>
+          <span class="line"><span>forward.</span></span>
+        </h1>
+        <div class="hero-foot">
+          <p class="eyebrow reveal d2">AI strategy and implementation</p>
+          <div class="hero-copy reveal d3">
+            <p class="lead">Nadovis Consult helps organizations see where artificial intelligence can genuinely make a difference, and then helps them put it to work.</p>
+            <div class="hero-actions">
+              <a class="btn btn-signal btn-lg" href="#contact">Talk to Nadovis</a>
+              <a class="btn btn-line btn-lg" href="#services">See What We Do</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- ======== POINT OF VIEW ======== -->
-    <section class="pov" id="about">
-      <div class="container pov-grid">
-        <div class="pov-left reveal">
-          <p class="kicker">A more useful way to think about AI</p>
-          <h2>The harder question is usually much simpler: “What should we actually do with it?”</h2>
-          <p>There is no shortage of AI tools. There is also no shortage of advice about AI. That is where Nadovis Consult comes in.</p>
-          <p>We start with the organization, not the technology. We look at how work gets done, where time is being lost, where decisions are difficult, where customers are being underserved and where information is sitting unused. From there, we identify the AI opportunities that are worth pursuing.</p>
+    <section class="statement">
+      <div class="wrap">
+        <p class="kicker">A more useful way to think about AI</p>
+        <h2 class="scrub">There is no shortage of AI tools. There is also no shortage of advice about AI. The harder question is usually much simpler: “What should we actually do with it?”</h2>
+        <div class="statement-foot">
+          <p class="reveal">That is where Nadovis Consult comes in.</p>
+          <div>
+          <p class="reveal d1">We start with the organization, not the technology. We look at how work gets done, where time is being lost, where decisions are difficult, where customers are being underserved and where information is sitting unused. From there, we identify the AI opportunities that are worth pursuing.</p>
+          <p class="reveal d2">We work with leaders and teams to turn AI from an interesting idea into better processes, decisions, customer experiences and ways of working.</p>
+          </div>
         </div>
-        <aside class="pov-card reveal d2">
-          <div class="pov-card-row"><span class="tick">01</span><p>Sometimes the answer is <strong>automation</strong>.</p></div>
-          <div class="pov-card-row"><span class="tick">02</span><p>Sometimes it is a <strong>new application</strong>.</p></div>
-          <div class="pov-card-row"><span class="tick">03</span><p>Sometimes it is better use of <strong>existing data</strong>.</p></div>
-          <div class="pov-card-row"><span class="tick">04</span><p>Sometimes the right answer is to <strong>do nothing yet</strong>.</p></div>
-          <p class="pov-card-note">Knowing the difference is our job.</p>
-        </aside>
       </div>
     </section>
 
-    <!-- ======== SERVICES ======== -->
+    <section class="answers dark">
+      <div class="wrap">
+        <ol class="answers-list">
+          <li>Sometimes the answer is automation.</li>
+          <li>Sometimes it is a new application.</li>
+          <li>Sometimes it is better use of existing data.</li>
+          <li class="is-signal">Sometimes the right answer is to do nothing yet.</li>
+        </ol>
+        <p class="answers-note reveal">Knowing the difference is our job.</p>
+      </div>
+    </section>
+
     <section class="services" id="services">
-      <div class="container">
-        <div class="section-head reveal">
+      <div class="wrap">
+        <div class="head reveal">
           <p class="kicker">What we do</p>
-          <h2>Eight ways we help organizations <br />put AI to work.</h2>
+          <h2>Eight ways we help organizations put AI to work.</h2>
         </div>
-        <div class="svc-grid">
-          <article class="svc-card svc-wide reveal">
-            <div class="svc-num">01</div>
-            <h3>AI Strategy</h3>
-            <p>A good AI strategy does not begin with a list of tools. It begins with the organization. We work with leadership teams to understand priorities, examine where AI can create value and develop a realistic path forward.</p>
-            <ul class="svc-tags"><li>Opportunity assessment</li><li>Use-case prioritization</li><li>AI roadmap</li><li>Implementation planning</li></ul>
+        <div class="svc-index reveal d1">
+          <article class="svc is-active">
+            <h3><button type="button" aria-expanded="true"><span>01</span>AI Strategy</button></h3>
+            <div class="svc-body">
+              <p>A good AI strategy does not begin with a list of tools. It begins with the organization. We work with leadership teams to understand priorities, examine where AI can create value and develop a realistic path forward.</p>
+              <ul>
+                <li>AI opportunity assessment</li><li>AI maturity and readiness review</li><li>Use-case identification and prioritization</li>
+                <li>AI roadmap development</li><li>Implementation planning</li><li>Capability and investment priorities</li>
+              </ul>
+            </div>
           </article>
-          <article class="svc-card svc-wide reveal d1">
-            <div class="svc-num">02</div>
-            <h3>AI Readiness</h3>
-            <p>Before investing heavily in AI, know whether the foundations are in place across leadership, people, processes, data, technology and governance.</p>
+          <article class="svc">
+            <h3><button type="button" aria-expanded="false"><span>02</span>AI Readiness</button></h3>
+            <div class="svc-body">
+              <p>Before investing heavily in AI, know whether the foundations are in place across leadership, people, processes, data, technology and governance.</p>
+              <p class="svc-close">Understand where you are, identify what is missing and decide what should happen next.</p>
+            </div>
           </article>
-          <article class="svc-card reveal d2">
-            <div class="svc-num">03</div>
-            <h3>AI Governance</h3>
-            <p>Practical approaches to responsible AI, including policies, accountability, oversight and usage standards. Enough clarity to use AI confidently, without another layer of bureaucracy.</p>
+          <article class="svc">
+            <h3><button type="button" aria-expanded="false"><span>03</span>AI Governance</button></h3>
+            <div class="svc-body">
+              <p>Practical approaches to responsible AI, including policies, accountability, oversight and usage standards. Enough clarity to use AI confidently, without another layer of bureaucracy.</p>
+            </div>
           </article>
-          <article class="svc-card reveal d1">
-            <div class="svc-num">04</div>
-            <h3>AI Automation</h3>
-            <p>We identify processes suited to automation, design the workflow and support implementation, from document processing to routine reporting.</p>
+          <article class="svc">
+            <h3><button type="button" aria-expanded="false"><span>04</span>AI Automation</button></h3>
+            <div class="svc-body">
+              <p>We identify processes suited to automation, design the workflow and support implementation.</p>
+              <ul>
+                <li>Document and information processing</li><li>Internal knowledge retrieval</li><li>Routine reporting</li>
+                <li>Administrative workflows</li><li>Customer and employee support</li><li>Repetitive operational tasks</li>
+              </ul>
+            </div>
           </article>
-          <article class="svc-card reveal d2">
-            <div class="svc-num">05</div>
-            <h3>Custom AI Solutions</h3>
-            <p>Where a specific problem requires something different, we design and implement AI-enabled solutions around your requirements. The starting point is the problem. The technology comes after that.</p>
+          <article class="svc">
+            <h3><button type="button" aria-expanded="false"><span>05</span>Custom AI Solutions</button></h3>
+            <div class="svc-body">
+              <p>Where a specific problem requires something different, we design and implement AI-enabled solutions around your requirements.</p>
+              <ul>
+                <li>AI assistants</li><li>Internal knowledge tools</li><li>Document intelligence</li><li>Decision-support applications</li>
+                <li>AI-enabled workflow systems</li><li>Customer-facing AI applications</li><li>Data and intelligence solutions</li>
+              </ul>
+              <p class="svc-close">The starting point is the problem. The technology comes after that.</p>
+            </div>
           </article>
-          <article class="svc-card svc-wide reveal d1">
-            <div class="svc-num">06</div>
-            <h3>Executive &amp; Team Training</h3>
-            <p>AI adoption is also a people project. Leaders need the strategic implications, and teams need to use it well.</p>
+          <article class="svc">
+            <h3><button type="button" aria-expanded="false"><span>06</span>Executive &amp; Team Training</button></h3>
+            <div class="svc-body">
+              <p>AI adoption is also a people project. Leaders need the strategic implications, and teams need to use it well.</p>
+              <ul>
+                <li>AI fundamentals</li><li>Generative AI</li><li>AI for productivity</li><li>AI strategy for leaders</li>
+                <li>Responsible AI</li><li>AI governance</li><li>Practical use of AI in everyday work</li>
+              </ul>
+            </div>
           </article>
-          <article class="svc-card svc-wide reveal d2">
-            <div class="svc-num">07</div>
-            <h3>AI Implementation</h3>
-            <p>We help organizations move beyond the workshop and the pilot. Our role can run from use-case selection all the way through implementation and the measurement of results.</p>
+          <article class="svc">
+            <h3><button type="button" aria-expanded="false"><span>07</span>AI Implementation</button></h3>
+            <div class="svc-body">
+              <p>We help organizations move beyond the workshop and the pilot. Our role can run from use-case selection all the way through implementation and the measurement of results.</p>
+              <ul>
+                <li>Identify the problem</li><li>Define the desired outcome</li><li>Select and design the solution</li><li>Pilot in a controlled environment</li>
+                <li>Implement</li><li>Support adoption</li><li>Measure the result</li><li>Scale where it makes sense</li>
+              </ul>
+            </div>
           </article>
-          <article class="svc-card svc-full reveal d1">
-            <div class="svc-num">08</div>
-            <h3>Technology &amp; Procurement Advisory</h3>
-            <p>The AI market changes quickly. We help you assess options against your needs, including technology evaluation, vendor assessment, build-versus-buy decisions and procurement considerations. The objective is a recommendation that makes sense for your organization, whether or not it is the newest thing on the market.</p>
+          <article class="svc">
+            <h3><button type="button" aria-expanded="false"><span>08</span>Technology &amp; Procurement Advisory</button></h3>
+            <div class="svc-body">
+              <p>The AI market changes quickly. We help you assess options against your needs, including technology evaluation, vendor assessment, build-versus-buy decisions and procurement considerations.</p>
+              <p class="svc-close">The objective is a recommendation that makes sense for your organization, whether or not it is the newest thing on the market.</p>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- ======== PROMISE ======== -->
     <section class="promise">
-      <div class="container reveal">
-        <p class="kicker">Our promise</p>
-        <blockquote>
-          “We are not interested in selling AI because AI is fashionable. We are interested in solving problems where AI is genuinely useful.”
-        </blockquote>
-        <p class="promise-sub">That means telling you what the technology can and cannot do, and staying disciplined about the business case.</p>
+      <div class="wrap">
+        <p class="kicker reveal">Our promise</p>
+        <blockquote class="reveal d1">We are not interested in selling AI because AI is fashionable. We are interested in solving problems where AI is genuinely useful.</blockquote>
+        <p class="promise-sub reveal d2">That means telling you what the technology can and cannot do, and staying disciplined about the business case.</p>
       </div>
     </section>
 
-    <!-- ======== INDUSTRIES ======== -->
     <section class="industries" id="industries">
-      <div class="container">
-        <div class="section-head reveal">
+      <div class="wrap">
+        <div class="head reveal">
           <p class="kicker">Who we work with</p>
           <h2>The underlying questions are often the same across sectors.</h2>
-          <p class="section-sub">Where is work inefficient? Where is information underused? Where are customers or citizens waiting too long, and where can better intelligence improve decisions?</p>
+          <p class="head-sub">Where is work inefficient? Where is information underused? Where are customers or citizens waiting too long, and where can better intelligence improve decisions?</p>
         </div>
-        <div class="ind-grid">
-          <div class="ind-col reveal">
-            <h3><span class="ind-dot teal"></span>Private Sector</h3>
-            <ul class="chips">
-              <li>Large enterprises</li><li>Financial institutions</li><li>Telecommunications</li>
-              <li>Professional services</li><li>Retail &amp; consumer</li><li>Technology companies</li>
-              <li>SMEs &amp; growth businesses</li>
+        <div class="sectors">
+          <div class="reveal">
+            <h3>Private Sector</h3>
+            <ul>
+              <li>Large enterprises</li><li>Financial institutions</li><li>Telecommunications</li><li>Professional services</li>
+              <li>Retail &amp; consumer</li><li>Technology companies</li><li>SMEs &amp; growth businesses</li>
             </ul>
           </div>
-          <div class="ind-col reveal d2">
-            <h3><span class="ind-dot blue"></span>Public Sector</h3>
-            <ul class="chips">
+          <div class="reveal d2">
+            <h3>Public Sector</h3>
+            <ul>
               <li>Government organizations</li><li>Public agencies</li><li>Public institutions</li>
               <li>Municipal &amp; regional bodies</li><li>Boards &amp; commissions</li>
             </ul>
@@ -175,35 +212,36 @@
       </div>
     </section>
 
-    <!-- ======== APPROACH ======== -->
-    <section class="approach" id="approach">
-      <div class="container">
-        <div class="section-head reveal">
+    <section class="approach dark" id="approach">
+      <div class="wrap approach-grid">
+        <div class="approach-side">
           <p class="kicker">Our approach</p>
-          <h2>Start with the problem. <br />Build toward the outcome.</h2>
+          <h2>Start with the problem.<br />Build toward the outcome.</h2>
+          <div class="approach-num" aria-hidden="true">1</div>
         </div>
         <ol class="steps">
-          <li class="reveal"><span class="step-num">1</span><h3>Listen</h3><p>Understand the organization, the people involved and the problem at hand.</p></li>
-          <li class="reveal d1"><span class="step-num">2</span><h3>Assess</h3><p>Look at the current process, data, technology and readiness.</p></li>
-          <li class="reveal d2"><span class="step-num">3</span><h3>Focus</h3><p>Separate the interesting AI ideas from the opportunities actually worth pursuing.</p></li>
-          <li class="reveal d3"><span class="step-num">4</span><h3>Design</h3><p>Define the solution, the operating model and the practical steps required.</p></li>
-          <li class="reveal d4"><span class="step-num">5</span><h3>Implement</h3><p>Put the solution into use and support the people who will use it.</p></li>
-          <li class="reveal d5"><span class="step-num">6</span><h3>Learn</h3><p>Measure what happened, improve the solution and decide whether to scale it.</p></li>
+          <li><span>1</span><h3>Listen</h3><p>Understand the organization, the people involved and the problem at hand.</p></li>
+          <li><span>2</span><h3>Assess</h3><p>Look at the current process, data, technology and readiness.</p></li>
+          <li><span>3</span><h3>Focus</h3><p>Separate the interesting AI ideas from the opportunities actually worth pursuing.</p></li>
+          <li><span>4</span><h3>Design</h3><p>Define the solution, the operating model and the practical steps required.</p></li>
+          <li><span>5</span><h3>Implement</h3><p>Put the solution into use and support the people who will use it.</p></li>
+          <li><span>6</span><h3>Learn</h3><p>Measure what happened, improve the solution and decide whether to scale it.</p></li>
         </ol>
+      </div>
+      <div class="wrap">
         <p class="approach-note reveal">We do not assume every problem needs AI. That is part of being an AI advisor.</p>
       </div>
     </section>
 
-    <!-- ======== RESPONSIBLE AI ======== -->
     <section class="responsible" id="responsible">
-      <div class="container resp-grid">
-        <div class="resp-left reveal">
+      <div class="wrap split">
+        <div class="split-side reveal">
           <p class="kicker">Responsible AI</p>
-          <h2>Use AI with confidence, <br />not carelessness.</h2>
+          <h2>Use AI with confidence, not carelessness.</h2>
           <p>AI can improve how an organization works, but it can also introduce new risks. Those risks need to be understood before systems are put into everyday use. Nadovis Consult brings responsible AI considerations into the work from the beginning.</p>
-          <p class="resp-aim">The aim is to make AI use <strong>deliberate</strong> without making it complicated.</p>
+          <p class="split-aim">The aim is to make AI use deliberate without making it complicated.</p>
         </div>
-        <ul class="resp-list reveal d2">
+        <ul class="ruled reveal d1">
           <li>Clear governance and accountability</li>
           <li>Data and information considerations</li>
           <li>Security and access controls</li>
@@ -215,67 +253,96 @@
       </div>
     </section>
 
-    <!-- ======== SUCCESS ======== -->
     <section class="success">
-      <div class="container">
-        <div class="section-head reveal">
+      <div class="wrap">
+        <div class="head reveal">
           <p class="kicker">What success looks like</p>
           <h2>AI should eventually show up in the numbers, the customer experience or the way people work.</h2>
         </div>
-        <div class="success-grid reveal d1">
-          <div class="success-item">Less time spent on repetitive work</div>
-          <div class="success-item">Faster access to information</div>
-          <div class="success-item">Better customer or citizen service</div>
-          <div class="success-item">More consistent processes</div>
-          <div class="success-item">Improved decision support</div>
-          <div class="success-item">Lower operational friction</div>
-          <div class="success-item">New products or services</div>
-          <div class="success-item">Greater capacity without simply adding more work</div>
-        </div>
-        <p class="success-note reveal">We encourage clients to define the intended result <em>before</em> choosing the technology.</p>
+        <ul class="outcomes">
+          <li class="reveal">Less time spent on repetitive work</li>
+          <li class="reveal d1">Faster access to information</li>
+          <li class="reveal">Better customer or citizen service</li>
+          <li class="reveal d1">More consistent processes</li>
+          <li class="reveal">Improved decision support</li>
+          <li class="reveal d1">Lower operational friction</li>
+          <li class="reveal">New products or services</li>
+          <li class="reveal d1">Greater capacity without simply adding more work</li>
+        </ul>
+        <p class="success-note reveal">We encourage clients to define the intended result before choosing the technology.</p>
       </div>
     </section>
 
-    <!-- ======== INSIGHTS ======== -->
+    <section class="about" id="about">
+      <div class="wrap split">
+        <div class="split-side reveal">
+          <p class="kicker">About</p>
+          <h2>Why Nadovis Consult exists</h2>
+          <p>AI is moving quickly. Most organizations are trying to keep up while still running the business, serving customers and managing people. Knowing what is possible does not automatically tell an organization what it should do.</p>
+          <p>Nadovis Consult exists to close that gap. We would rather help a client implement one useful solution properly than produce a long list of AI possibilities that never leave a presentation.</p>
+        </div>
+        <div class="reveal d1">
+          <h3 class="ruled-title">What we believe</h3>
+          <ul class="ruled">
+            <li>AI should solve a real problem.</li>
+            <li>Technology decisions should follow business needs.</li>
+            <li>People need to understand AI if organizations are going to use it well.</li>
+            <li>Responsible use is part of implementation.</li>
+            <li>A successful AI project should lead to a measurable improvement.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="purpose dark">
+      <div>
+        <h3 class="reveal">Vision</h3>
+        <p class="reveal d1">To become a trusted AI advisory and technology partner helping organizations use artificial intelligence responsibly, practically and effectively.</p>
+      </div>
+      <div>
+        <h3 class="reveal">Mission</h3>
+        <p class="reveal d1">To help organizations turn artificial intelligence into practical improvements in how they operate, serve people, make decisions and grow.</p>
+      </div>
+    </section>
+
     <section class="insights" id="insights">
-      <div class="container">
-        <div class="section-head reveal">
+      <div class="wrap">
+        <div class="head reveal">
           <p class="kicker">Insights</p>
           <h2>Where the company thinks.</h2>
         </div>
         <div class="ins-grid">
-          <article class="ins-card reveal"><h3>What should a business actually automate with AI?</h3></article>
-          <article class="ins-card reveal d1"><h3>How to choose a first AI use case</h3></article>
-          <article class="ins-card reveal d2"><h3>Why so many AI pilots never ship</h3></article>
-          <article class="ins-card reveal d1"><h3>What executives should understand about generative AI</h3></article>
-          <article class="ins-card reveal d2"><h3>Getting your teams ready to work with AI</h3></article>
-          <article class="ins-card reveal d3"><h3>When not to use AI</h3></article>
+          <article class="reveal"><canvas class="cover" data-theme="navy" data-seed="3" aria-hidden="true"></canvas><h3>What should a business actually automate with AI?</h3></article>
+          <article class="reveal d1"><canvas class="cover" data-theme="signal" data-seed="11" aria-hidden="true"></canvas><h3>How to choose a first AI use case</h3></article>
+          <article class="reveal d2"><canvas class="cover" data-theme="white" data-seed="23" aria-hidden="true"></canvas><h3>Why so many AI pilots never ship</h3></article>
+          <article class="reveal"><canvas class="cover" data-theme="white" data-seed="37" aria-hidden="true"></canvas><h3>What executives should understand about generative AI</h3></article>
+          <article class="reveal d1"><canvas class="cover" data-theme="navy" data-seed="41" aria-hidden="true"></canvas><h3>Getting your teams ready to work with AI</h3></article>
+          <article class="reveal d2"><canvas class="cover" data-theme="signal" data-seed="59" aria-hidden="true"></canvas><h3>When not to use AI</h3></article>
         </div>
       </div>
     </section>
 
-    <!-- ======== CONTACT ======== -->
-    <section class="contact" id="contact">
-      <div class="container contact-grid">
-        <div class="contact-left reveal">
+    <section class="contact dark" id="contact">
+      <div class="wrap contact-grid">
+        <div class="contact-side reveal">
           <p class="kicker">Contact</p>
           <h2>Let’s talk about the problem you want to solve.</h2>
           <p>You do not need to arrive with an AI strategy. You do not need to know which technology you need.</p>
           <p>Bring us the problem, the process that is frustrating your team, the opportunity you think you are missing, or simply the question you are trying to answer.</p>
           <p class="contact-start">We can start there.</p>
         </div>
-        <form class="contact-form reveal d2" onsubmit="event.preventDefault(); this.classList.add('sent');">
+        <form class="contact-form reveal d1">
           <div class="form-row">
-            <label>First Name<input type="text" name="first" required /></label>
-            <label>Last Name<input type="text" name="last" required /></label>
+            <label>First Name<input type="text" name="first" autocomplete="given-name" required /></label>
+            <label>Last Name<input type="text" name="last" autocomplete="family-name" required /></label>
           </div>
           <div class="form-row">
-            <label>Organization<input type="text" name="org" /></label>
-            <label>Job Title<input type="text" name="title" /></label>
+            <label>Organization<input type="text" name="org" autocomplete="organization" /></label>
+            <label>Job Title<input type="text" name="title" autocomplete="organization-title" /></label>
           </div>
           <div class="form-row">
-            <label>Email Address<input type="email" name="email" required /></label>
-            <label>Phone Number<input type="tel" name="phone" /></label>
+            <label>Email Address<input type="email" name="email" autocomplete="email" required /></label>
+            <label>Phone Number<input type="tel" name="phone" autocomplete="tel" /></label>
           </div>
           <label>What would you like to discuss?
             <select name="topic">
@@ -287,22 +354,16 @@
           <label>Tell us a little about the challenge or opportunity
             <textarea name="message" rows="4"></textarea>
           </label>
-          <button type="submit" class="btn btn-primary btn-lg btn-block">Start a Conversation</button>
-          <p class="form-sent-msg">Thank you. We’ll be in touch shortly.</p>
+          <button type="submit" class="btn btn-signal btn-lg">Start a Conversation</button>
+          <p class="form-sent" role="status"></p>
         </form>
       </div>
     </section>
   </main>
 
-  <!-- ======== FOOTER ======== -->
-  <footer class="footer">
-    <div class="container footer-grid">
-      <div class="footer-brand">
-        <a class="brand" href="#top" aria-label="Nadovis Consult home">
-          <span class="wordmark wordmark-lg">Nadovis <span>Consult</span></span>
-        </a>
-        <p class="footer-tag">AI That Moves Organizations Forward.</p>
-      </div>
+  <footer class="footer dark">
+    <div class="wrap footer-grid">
+      <p class="footer-tag">AI That Moves Organizations Forward.</p>
       <nav class="footer-links" aria-label="Footer">
         <div>
           <h4>Company</h4>
@@ -323,10 +384,11 @@
         </div>
       </nav>
     </div>
-    <div class="container footer-base">
+    <div class="wrap footer-base">
       <p>© 2026 Nadovis Consult. All rights reserved.</p>
       <p>Practical AI strategy and implementation.</p>
     </div>
+    <div class="footer-mark" aria-hidden="true">Nadovis</div>
   </footer>
 
   <script src="main.js"></script>
