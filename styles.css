@@ -343,6 +343,7 @@ html:not(.js) .svc-body { grid-row: auto; opacity: 1; visibility: visible; trans
 .cover { display: block; width: 100%; aspect-ratio: 4 / 3; background: var(--navy); }
 .ins-grid h3 { margin-top: 18px; font-size: 1.35rem; line-height: 1.22; text-wrap: balance; }
 
+.contact { background: var(--navy); }
 .contact-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
